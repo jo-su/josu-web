@@ -5,7 +5,6 @@ import { useRouter } from "next/router";
 const LocalePicker: FC = () => {
   const router = useRouter();
 
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const toggleLocale= (newLocale: string) => {
     const { pathname, asPath, query } = router
     router.push({ pathname, query }, asPath, { locale: newLocale })
