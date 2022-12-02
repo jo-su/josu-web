@@ -1,0 +1,55 @@
+.spinning_msg{
+  position: absolute;
+  z-index:20;
+  width: 15rem;
+  height: 15rem;
+  top: -7.5rem;
+  left: -1.5rem;
+  z-index:18;
+  cursor: default;
+}
+
+.spinning_msg svg textPath { 
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 23px;
+  fill: var(--highlight);
+}
+
+
+.gradient{
+  position: absolute;
+  width: 6.5rem;
+  height: 6.5rem;
+  top: -3.25rem;
+  left: 2.75rem;
+  border-radius: 50%;
+  /*background: linear-gradient(to right, red, orange);*/
+  background-image: linear-gradient(
+		45deg,
+		#ffa95f 5%,
+		#f99c4a 15%,
+		#f47838 30%,
+		#e75157 45%,
+		#d92d7a 70%,
+		#cc2a92 80%,
+		#c32e92 95%
+	);
+  /*background: linear-gradient(to right, #293abc, #4e9feb);*/
+  padding: 0.25rem;
+  z-index:19;
+  cursor: pointer;
+}
+
+
+.pic{
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index:20;
+  border: 2px solid var(--border);
+  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
+  top: -3rem;
+  left: 3rem;
+}

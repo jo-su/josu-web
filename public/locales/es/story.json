@@ -1,0 +1,14 @@
+{
+    "1": {
+        "hi":"Hola!",
+        "myName":"Soy Josu 🙆🏽‍♂️",
+        "niceToMeetYou":"Encantado de conocerte"
+    },
+    "2": {
+        "notReady":"Desafortunadamente, estas stories todavía no están preparadas."
+    },
+    "3": {
+        "however":"Sin embargo, si quieres saber más podemos hablar por email o concertar una reunión.",
+        "sendMeEmail":"Enviar mensaje por email"
+    }
+}

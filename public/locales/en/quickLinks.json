@@ -1,0 +1,14 @@
+{
+    "linkedin": {
+        "title": "LinkedIn",
+        "description": "Let's connect"
+    },
+    "email": {
+        "title": "Email",
+        "description": "Send me an email"
+    },
+    "cv": {
+        "title": "CV",
+        "description": "Download my CV"
+    }
+}

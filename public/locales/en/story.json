@@ -1,0 +1,14 @@
+{
+    "1": {
+        "hi":"Hi!",
+        "myName":"I'm Josu",
+        "niceToMeetYou":"Nice to meet you"
+    },
+    "2": {
+        "notReady":"Unfortunately, these stories are not ready yet."
+    },
+    "3": {
+        "however":"However, if you want to know more we can chat or plan a meeting",
+        "sendMeEmail":"Send me an email"
+    }
+}
