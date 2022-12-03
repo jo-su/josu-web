@@ -20,7 +20,7 @@
   left: 0;
   top: 0;
   animation-name: rotate;
-  animation-duration: 20s;
+  animation-duration: 100000s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
