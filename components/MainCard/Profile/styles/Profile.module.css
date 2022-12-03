@@ -9,18 +9,18 @@
   cursor: default;
 }
 
-.spinning_msg svg text{ 
+.spinning_msg_svg_text{ 
   font-size: 55px;
   text-transform: uppercase;
   letter-spacing: 18px;
   fill: var(--highlight);
 }
 
-.spinning_msg svg {
+.spinning_msg_svg {
   left: 0;
   top: 0;
   animation-name: rotate;
-  animation-duration: 100000s;
+  animation-duration: 50s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }

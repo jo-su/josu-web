@@ -41,33 +41,26 @@ const Profile = () => {
 
     return (
       <>
-        <div className={styles.spinning_msg}>
-          <svg viewBox="0 0 500 500">
-            <defs>
-              <path d="M50,250c0-110.5,89.5-200,200-200s200,89.5,200,200s-89.5,200-200,200S50,360.5,50,250" id="circle">
-                <animateTransform
-                  attributeName="transform"
-                  begin="0s"
-                  dur="15s"
-                  type="rotate"
-                  from="0 250 250"
-                  to="360 250 250"
-                  repeatCount="indefinite"
-                />
-              </path>
-            </defs>
-            <text>
-              <textPath href="#circle">
-                {t('profileCircleText')}
-              </textPath>
-            </text>
-          </svg>
-        </div>
-        <div className={styles.gradient} onClick={openModal}>
-          <div 
-            className={styles.pic}
-            style={{backgroundImage: "url(https://media-exp1.licdn.com/dms/image/C4E03AQEV879FtizJDw/profile-displayphoto-shrink_200_200/0/1620392571991?e=1674691200&v=beta&t=6RiczRCp6RPHKbgiRxweXEbuLC9jT7Eug202WF8oasc)"}}
-          >
+        <div className={styles.profile}>
+          <div className={styles.spinning_msg}>
+            <svg className={styles.spinning_msg_svg} viewBox="0 0 500 500">
+              <defs>
+                <path d="M50,250c0-110.5,89.5-200,200-200s200,89.5,200,200s-89.5,200-200,200S50,360.5,50,250" id="circle">
+                </path>
+              </defs>
+              <text className={styles.spinning_msg_svg_text}>
+                <textPath href="#circle">
+                  {t('profileCircleText')}
+                </textPath>
+              </text>
+            </svg>
+          </div>
+          <div className={styles.gradient} onClick={openModal}>
+            <div 
+              className={styles.pic}
+              style={{backgroundImage: "url(https://media-exp1.licdn.com/dms/image/C4E03AQEV879FtizJDw/profile-displayphoto-shrink_200_200/0/1620392571991?e=1674691200&v=beta&t=6RiczRCp6RPHKbgiRxweXEbuLC9jT7Eug202WF8oasc)"}}
+            >
+            </div>
           </div>
         </div>
 
