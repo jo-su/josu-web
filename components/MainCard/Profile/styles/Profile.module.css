@@ -7,6 +7,10 @@
   left: 1.5rem;
   z-index:18;
   cursor: default;
+  animation-name: rotate;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 .spinning_msg_svg_text{ 
@@ -14,15 +18,6 @@
   text-transform: uppercase;
   letter-spacing: 18px;
   fill: var(--highlight);
-}
-
-.spinning_msg_svg {
-  left: 0;
-  top: 0;
-  animation-name: rotate;
-  animation-duration: 50s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
 }
 
 @keyframes rotate {
