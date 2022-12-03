@@ -56,8 +56,8 @@ const Profile = () => {
                 />
               </path>
             </defs>
-            <text dy="80">
-              <textPath xlinkHref="#circle">
+            <text>
+              <textPath href="#circle">
                 {t('profileCircleText')}
               </textPath>
             </text>
