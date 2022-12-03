@@ -47,7 +47,7 @@ const Profile = () => {
               <path d="M50,250c0-110.5,89.5-200,200-200s200,89.5,200,200s-89.5,200-200,200S50,360.5,50,250" id="circle">
               </path>
             </defs>
-            <text className={styles.spinning_msg_svg_text}>
+            <text>
               <textPath href="#circle">
                 {t('profileCircleText')}
               </textPath>

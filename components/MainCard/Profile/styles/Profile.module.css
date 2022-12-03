@@ -13,7 +13,7 @@
   animation-timing-function: linear;
 }
 
-.spinning_msg_svg_text{ 
+.spinning_msg text{ 
   font-size: 55px;
   text-transform: uppercase;
   letter-spacing: 18px;
