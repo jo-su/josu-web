@@ -8,7 +8,7 @@ const ProfileStory: FC<IProfileStoryProps> = ({close}) => {
   
   const storyContent = {
       width: 'auto',
-      maxWidth: '100%',
+      maxWidth: '90vw',
       maxHeight: '90vh',
       margin: 'auto',
       border:0,
@@ -70,7 +70,7 @@ const ProfileStory: FC<IProfileStoryProps> = ({close}) => {
       <button className={styles.close_button} onClick={()=>{close()}}>
         {t2('close')}
       </button>
-      <Stories 
+      <Stories
         stories={stories}
         defaultInterval={3000}
         storyStyles={storyContent}

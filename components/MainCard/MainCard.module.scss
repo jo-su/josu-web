@@ -18,3 +18,9 @@
   align-items: flex-start;
   transition: var(--transition-time);
 }
+
+@media screen and (max-width: 450px){
+  .card{
+    margin-top: calc(10vh + 5rem);
+  }
+}

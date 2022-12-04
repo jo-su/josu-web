@@ -4,7 +4,7 @@ import Modal from 'react-modal';
 import ProfileStory from '../ProfileStory/ProfileStory';
 import { useTranslation, Trans } from 'next-i18next'
 
-const customStyles = {
+const modalStyle = {
   content: {
     top: '50%',
     left: '50%',
@@ -15,6 +15,8 @@ const customStyles = {
     padding:0,
     margin:0,
     borderColor: 'var(--border)',
+    maxWidth: '90vw',
+    maxHeight: '90vh'
   },
   overlay: {
     zIndex: 1500,
@@ -63,7 +65,7 @@ const Profile = () => {
         <Modal
           isOpen={modalIsOpen}
           onRequestClose={closeModal}
-          style={customStyles}
+          style={modalStyle}
           contentLabel="Story"
         >
           <ProfileStory close={closeModal}/>
