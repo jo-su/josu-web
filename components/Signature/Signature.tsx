@@ -1,4 +1,4 @@
-import styles from './styles/Signature.module.css'
+import styles from './Signature.module.scss'
 
 const Signature = () => {
     return (

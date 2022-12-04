@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { useRouter } from 'next/router';
-import MainCard from '../components/MainCard'
-import styles from '../styles/Home.module.css'
+import MainCard from '../components/MainCard/MainCard'
+import styles from '../styles/Home.module.scss'
 import type { GetStaticProps, InferGetStaticPropsType } from 'next'
 import { useTranslation, Trans } from 'next-i18next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'

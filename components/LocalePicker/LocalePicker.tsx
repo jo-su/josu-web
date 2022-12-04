@@ -1,4 +1,4 @@
-import styles from "./styles/LocalePicker.module.css";
+import styles from "./LocalePicker.module.scss";
 import { FC } from "react";
 import { useRouter } from "next/router";
 

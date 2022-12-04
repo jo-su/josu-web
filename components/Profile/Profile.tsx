@@ -1,7 +1,7 @@
-import styles from './styles/Profile.module.css'
+import styles from './Profile.module.scss'
 import React,{useState} from 'react';
 import Modal from 'react-modal';
-import ProfileStory from './ProfileStory';
+import ProfileStory from '../ProfileStory/ProfileStory';
 import { useTranslation, Trans } from 'next-i18next'
 
 const customStyles = {
@@ -41,7 +41,6 @@ const Profile = () => {
 
     return (
       <>
-        <div className={styles.profile}>
           <svg className={styles.spinning_msg} viewBox="0 0 500 500">
             <defs>
               <path d="M50,250c0-110.5,89.5-200,200-200s200,89.5,200,200s-89.5,200-200,200S50,360.5,50,250" id="circle">
@@ -60,7 +59,6 @@ const Profile = () => {
             >
             </div>
           </div>
-        </div>
 
         <Modal
           isOpen={modalIsOpen}

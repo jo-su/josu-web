@@ -6,7 +6,6 @@
     "dev": "next dev",
     "build": "next build",
     "deploy": "next deploy"
-
   },
   "dependencies": {
     "@types/node": "18.11.9",
@@ -23,6 +22,7 @@
     "react-i18next": "^12.0.0",
     "react-insta-stories": "^2.4.2",
     "react-modal": "^3.16.1",
+    "sass": "^1.56.1",
     "typescript": "4.9.3"
   },
   "devDependencies": {

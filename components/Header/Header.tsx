@@ -1,4 +1,4 @@
-import NewTabLink from "../../NewTabLink";
+import NewTabLink from "../NewTabLink/NewTabLink";
 import { useTranslation, Trans } from 'next-i18next'
 
 const Header = () => {

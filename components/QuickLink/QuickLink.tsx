@@ -1,6 +1,6 @@
 import { FC } from "react";
-import { IQuickLinkProps } from "./models/IQuickLinkProps";
-import styles from "./styles/QuickLink.module.css";
+import { IQuickLinkProps } from "./IQuickLinkProps";
+import styles from "./QuickLink.module.scss";
 
 const QuickLink:FC<IQuickLinkProps> = ({url, Icon, title, description}) => {
     return (

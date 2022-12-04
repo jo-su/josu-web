@@ -1,7 +1,7 @@
 import React, { FC, useState } from "react";
-import { IProfileStoryProps } from "./models/IProfileStoryProps";
+import { IProfileStoryProps } from "./IProfileStoryProps";
 import Stories from "react-insta-stories";
-import styles from './styles/ProfileStory.module.css'
+import styles from './ProfileStory.module.scss'
 import { useTranslation } from "react-i18next";
 
 const ProfileStory: FC<IProfileStoryProps> = ({close}) => {

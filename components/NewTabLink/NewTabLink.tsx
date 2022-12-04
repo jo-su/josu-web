@@ -1,7 +1,7 @@
 import { FC } from "react";
-import { INewTabLinkProps } from "./models/INewTabLinkProps";
+import { INewTabLinkProps } from "./INewTabLinkProps";
 import { ArrowUpRight } from 'react-feather';
-import styles from "./styles/NewTabLink.module.css";
+import styles from "./NewTabLink.module.scss";
 
 const NewTabLink:FC<INewTabLinkProps> = ({url, Icon, name}) => {
     return (

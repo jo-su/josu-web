@@ -1,5 +1,5 @@
-import QuickLink from "./QuickLink";
-import styles from "./styles/QuickLinks.module.css";
+import QuickLink from "../QuickLink/QuickLink";
+import styles from "./QuickLinks.module.scss";
 import { Linkedin, Mail, File } from 'react-feather';
 import { useTranslation } from 'next-i18next'
 
