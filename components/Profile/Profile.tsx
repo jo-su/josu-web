@@ -33,7 +33,6 @@ const Profile = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
 
     function openModal() {
-      console.log("open modal");
       setModalIsOpen(true);
     }
   
@@ -57,7 +56,7 @@ const Profile = () => {
           <div className={styles.gradient} onClick={openModal}>
             <div 
               className={styles.pic}
-              style={{backgroundImage: "url(https://media-exp1.licdn.com/dms/image/C4E03AQEV879FtizJDw/profile-displayphoto-shrink_200_200/0/1620392571991?e=1674691200&v=beta&t=6RiczRCp6RPHKbgiRxweXEbuLC9jT7Eug202WF8oasc)"}}
+              style={{backgroundImage: "url(/images/profilepic.webp)"}}
             >
             </div>
           </div>

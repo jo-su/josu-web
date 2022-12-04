@@ -20,7 +20,7 @@ const Homepage = (_props: InferGetStaticPropsType<typeof getStaticProps>) => {
     <>
       <Head>
         <title>Josu Garralda</title>
-        <link rel="icon" href="/favicon-96x96.png" />
+        <link rel="icon" href="favicon/favicon-96x96.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
       </Head>
       

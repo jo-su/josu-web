@@ -18,7 +18,11 @@
   font-size: 15px;
   border-radius: 20px;
   color:var(--text);
-  background-color: var(--overlay-background);
+  background: none;
+}
+
+.container button:hover{
+  color: var(--highlight);
 }
 
 .chosen{

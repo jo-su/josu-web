@@ -9,6 +9,7 @@ const Header = () => {
     <div>
       <h1>JOSU GARRALDA</h1>
       <h2>{t('position')}</h2>
+      <br/>
       <h3>
         <span style={{color: "#d87272"}}>
           {t('now')+": "}  

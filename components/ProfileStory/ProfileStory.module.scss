@@ -16,6 +16,8 @@
 
 .storyContainer{
   background: var(--background);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: var(--text);
   height: 100%;
   width: 100%;
@@ -23,10 +25,6 @@
 };
 
 .storyContent{
-  width: inherit;
-  height: inherit;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
 };

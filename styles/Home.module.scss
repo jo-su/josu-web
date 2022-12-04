@@ -1,6 +1,7 @@
 .container {
   height: 100vh;
   width: 100vw;
+  max-width: 100%;
   display: grid;
   place-items: center;
   font: 100% "Syne";

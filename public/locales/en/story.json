@@ -1,14 +1,34 @@
 {
     "1": {
-        "hi":"Hi!",
+        "hi":"Hello!",
         "myName":"I'm Josu",
-        "niceToMeetYou":"Nice to meet you"
+        "niceToMeetYou":"Nice to meet you."
     },
     "2": {
-        "notReady":"Unfortunately, these stories are not ready yet."
+        "introduction":"I've been a very curious person since I was a kid, and I was fascinated by digital devices and computers.",
+        "introduction2":"I also started developing a special design sensitivity over the years.",
+        "introduction3":"I learned from school to solve problems, and it motivates me to build tools that respond to these."
+        
     },
     "3": {
-        "however":"However, if you want to know more we can chat or plan a meeting",
-        "sendMeEmail":"Send me an email"
+        "university":"The years I studied computer engineering have been the most enriching of my life.",
+        "university2":"What made me the person I am today."
+    },
+    "4": {
+        "favAreas":"In my 3rd university year, I specially enjoyed the classes of web development and human-machine interactions.",
+        "favAreas2":"I like the areas of web applications, front-end and UI/UX. Databases and artificial intelligence too."
+    },
+    "5": {
+        "vacation":"Whenever I can, I travel to get to know new countries and cultures.",
+        "vacation2":"They're also a great opportunity to practice languages."
+
+    },
+    "6": {
+        "cooking":"I love cooking",
+        "cooking2":"If it's surrounded by friends and family, it's even more so!"
+    },
+    "7": {
+        "wannaKnowMore":"Want to know more?",
+        "contactMe":"Send me an email or visit my LinkedIn profile."
     }
 }

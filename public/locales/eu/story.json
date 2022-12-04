@@ -1,14 +1,34 @@
 {
     "1": {
         "hi":"Kaixo!",
-        "myName":"Josu naiz 🙆🏽‍♂️",
-        "niceToMeetYou":"Pozten naiz zu ezagutzeaz"
+        "myName":"Josu naiz",
+        "niceToMeetYou":"Pozten naiz zu ezagutzeaz."
     },
     "2": {
-        "notReady":"Zoritxarrez, storieak ez daude prest oraindik"
+        "introduction":"Txikitatik izan naiz ikusmin handiko mutila, eta aparatu digital eta ordenagailuez liluratu nintzen.",
+        "introduction2":"Diseinurako sentsibilitate berezia ere garatzen hasi nintzen urte hauetan.",
+        "introduction3":"Eskolatik ikasi nuen problemak ebaztea, eta arazoie erantzuna ematen dieten tresnak eraikitzea motibatzen nau."
+        
     },
     "3": {
-        "however":"Hala ere, gehiago jakin nahi baduzu emailez hitz egin edo bilera bat adostu dezakegu",
-        "sendMeEmail":"Mezua bidali emailez"
+        "university":"Ingeniaritza informatikoa ikasi nituen urteak izan dira nire bizitzako aberasgarrienak.",
+        "university2":"Gaur egun naizen pertsona bihurtu nauena."
+    },
+    "4": {
+        "favAreas":"Graduko 3. mailan, web garapena eta gizaki-makina interakzioak ikasgaietaz ikaragarri gozatu nuen.",
+        "favAreas2":"Web aplikazioak, front-end eta UI/UX arloak ditut gustokoen. Baita datubaseak eta adimen artifiziala ere."
+    },
+    "5": {
+        "vacation":"Ahal dudan guztietan, herrialde eta kultura berriak ezagutzeko bidaiatzen dut.",
+        "vacation2":"Hizkuntzak praktikatzeko aukera paregabea dira baita ere."
+
+    },
+    "6": {
+        "cooking":"Sukaldatzea asko gustatzen zait.",
+        "cooking2":"Lagun eta familiaz inguratua bada, are gehiago!"
+    },
+    "7": {
+        "wannaKnowMore":"Gehiago jakin nahi?",
+        "contactMe":"Jarri zaitez kontaktuan emailez edo bisitatu nire LinkedIn profila."
     }
 }
