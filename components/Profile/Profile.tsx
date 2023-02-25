@@ -56,7 +56,7 @@ const Profile = () => {
           <div className={styles.gradient} onClick={openModal}>
             <div 
               className={styles.pic}
-              style={{backgroundImage: "url(/images/profilepic.webp)"}}
+              style={{backgroundImage: "url(/images/vicom-profilepic.webp)"}}
             >
             </div>
           </div>

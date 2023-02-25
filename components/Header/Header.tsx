@@ -16,7 +16,7 @@ const Header = () => {
         </span>
         <span style={{opacity: 0.8}}>
           <Trans i18nKey='nowText' t={t}>
-            M365 Developer & Consultant @ <NewTabLink name="CYC" url="https://www.cyc.es/default.aspx" />
+            Software developer & DevOps @ <NewTabLink name="Vicomtech" url="https://www.vicomtech.org" />
           </Trans>
         </span>
       </h3>
