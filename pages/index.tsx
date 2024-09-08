@@ -23,6 +23,7 @@ const Homepage = (_props: InferGetStaticPropsType<typeof getStaticProps>) => {
         <link rel="icon" href="favicon/favicon-96x96.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
         <meta name="description" content="Josu Garralda | Computer Engineer."></meta>
+        <script defer src="https://cloud.umami.is/script.js" data-website-id="60b6aa07-b7bb-4337-96c2-cd705bd7465b"></script>
       </Head>
       
       <div className={styles.container}>
