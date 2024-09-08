@@ -14,11 +14,9 @@ const MainCard = () => {
       <div className={styles.card}>
         <Profile/>
         <div className={styles.content}>
-          <br/><br/><br/><br/>
           <Header />
           <p>{t('description')}</p>
           <QuickLinks />
-          <br/><br/><br/>
         </div>
         <Signature/>
       </div>
