@@ -2,6 +2,7 @@ import {NextIntlClientProvider} from 'next-intl';
 import {getMessages} from 'next-intl/server';
 import Head from 'next/head';
 import './global.css'
+import PHProvider from '../../lib/posthog';
  
 export default async function LocaleLayout({
   children,
@@ -16,17 +17,19 @@ export default async function LocaleLayout({
  
   return (
     <html lang={locale}>
-        <NextIntlClientProvider messages={messages}>
-            <Head>
-                <title>Josu Garralda</title>
-                <link rel="icon" href="favicon/favicon-96x96.png" />
-                <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
-                <meta name="description" content="Josu Garralda | Computer Engineer."></meta>
-            </Head>
-            <body>
-                {children}
-            </body>
-        </NextIntlClientProvider>
+        <PHProvider>
+            <NextIntlClientProvider messages={messages}>
+                <Head>
+                    <title>Josu Garralda</title>
+                    <link rel="icon" href="favicon/favicon-96x96.png" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+                    <meta name="description" content="Josu Garralda | Computer Engineer."></meta>
+                </Head>
+                <body>
+                    {children}
+                </body>
+            </NextIntlClientProvider>
+        </PHProvider>
     </html>
   );
 }
