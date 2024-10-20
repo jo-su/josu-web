@@ -1,7 +1,8 @@
-const { i18n } = require('./next-i18next.config');
-
-module.exports = {
-  reactStrictMode: true,
-  swcMinify: false,
-  i18n
-}
+const createNextIntlPlugin = require('next-intl/plugin');
+ 
+const withNextIntl = createNextIntlPlugin();
+ 
+/** @type {import('next').NextConfig} */
+const nextConfig = {};
+ 
+module.exports = withNextIntl(nextConfig);
