@@ -1,0 +1,30 @@
+.close_button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  height: 1rem;
+  width: 100%;
+  color: var(--text);
+  background: var(--background);
+	padding: 15px;
+	cursor: pointer;
+  border:0;
+  border-bottom: 1px solid var(--overlay-background);
+	outline: inherit;
+}
+
+.storyContainer{
+  background: var(--background);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--text);
+  height: 100%;
+  width: 100%;
+  padding: 2rem;
+};
+
+.storyContent{
+  display: flex;
+  flex-direction: column;
+};

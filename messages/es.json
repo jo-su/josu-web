@@ -1,0 +1,58 @@
+{
+    "common": {
+        "position": "Desarrollador de software y apasionado del UI/UX",
+        "now": "Ahora",
+        "nowText": "Desarrollador de software y DevOps en",
+        "description": "Soy un ingeniero informático 👨🏽‍💻 que vive en 📍 Donostia, preparado para nuevos retos 🙋🏽‍♂️ y con ganas de crear herramientas técnicamente ⚙️ funcionales y estéticamente 👨🏽‍🎨 atractivas. Impulsado por la curiosidad, respondo a los problemas con 💡 creatividad y lucho por estar un paso por delante 👣.",
+        "profileCircleText": "HOLA! · CLICK PARA STORY ·",
+        "close":"CERRAR"
+    },
+    "quick-links": {
+        "linkedin": {
+            "title": "LinkedIn",
+            "description": "¿Conectamos?"
+        },
+        "email": {
+            "title": "Email",
+            "description": "Escríbeme un mail"
+        },
+        "cv": {
+            "title": "CV",
+            "description": "Descargar CV"
+        }
+    },
+    "story": {
+        "1": {
+            "hi":"¡Hola!",
+            "myName":"Soy Josu",
+            "niceToMeetYou":"Encantado de conocerte."
+        },
+        "2": {
+            "introduction":"Desde pequeño he sido curioso y me fasciné por los aparatos digitales y los ordenadores.",
+            "introduction2":"También empecé a desarrollar una sensibilidad especial para el diseño durante estos años.",
+            "introduction3":"Desde la escuela aprendí a resolver problemas y me motiva construir herramientas que les den respuesta."
+            
+        },
+        "3": {
+            "university":"Los años que estudié ingeniería informática han sido los más enriquecedores de mi vida.",
+            "university2":"Lo que me ha convertido en la persona que soy hoy."
+        },
+        "4": {
+            "favAreas":"En 3º de grado, disfruté enormemente de las asignaturas de desarrollo web e interacciones hombre-máquina.",
+            "favAreas2":"Mis áreas favoritas son las aplicaciones web, el front-end y UI/UX. También me gustan las BBDD y la inteligencia artificial."
+        },
+        "5": {
+            "vacation":"Siempre que puedo, viajo para conocer nuevos paises y sus culturas",
+            "vacation2":"También es el momento perfecto para practicar idiomas."
+    
+        },
+        "6": {
+            "cooking":"Me encanta cocinar.",
+            "cooking2":"Y si es junto a amigos y familia, ¡Mucho mejor!"
+        },
+        "7": {
+            "wannaKnowMore":"¿Quieres saber más?",
+            "contactMe":"Ponte en contacto por email o visita mi perfil en LinkedIn."
+        }
+    }
+}

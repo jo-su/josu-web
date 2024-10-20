@@ -1,0 +1,58 @@
+{
+    "common": {
+        "position": "Software garatzailea eta UI/UX zale amorratua",
+        "now": "Orain",
+        "nowText": "Software garatzailea eta DevOps @",
+        "description": "Donostian 📍 bizi den informatika ingeniaria 👨🏽‍💻 naiz, erronka berrietarako prest 🙋🏽‍♂️ eta teknikoki ⚙️ funtzionalak zein estetikoki 👨🏽‍🎨 ederrak diren tresnak eraikitzeko gogoarekin. Jakin-minak bultzatuta, arazoen aurrean sormenaz 💡 erantzuten dut eta pauso bat aurrerago 👣 egoten ahalegintzen naiz.",
+        "profileCircleText": "KAIXO! · EGIN KLIK HEMEN ·",
+        "close":"ITXI"
+    },
+    "quick-links": {
+        "linkedin": {
+            "title": "LinkedIn",
+            "description": "Konekta gaitezen"
+        },
+        "email": {
+            "title": "Email",
+            "description": "Idatzidazu emailez"
+        },
+        "cv": {
+            "title": "CV",
+            "description": "Deskargatu CVa"
+        }
+    },
+    "story": {
+        "1": {
+            "hi":"Kaixo!",
+            "myName":"Josu naiz",
+            "niceToMeetYou":"Pozten naiz zu ezagutzeaz."
+        },
+        "2": {
+            "introduction":"Txikitatik izan naiz ikusmin handiko mutila, eta aparatu digital eta ordenagailuez liluratu nintzen.",
+            "introduction2":"Diseinurako sentsibilitate berezia ere garatzen hasi nintzen urte hauetan.",
+            "introduction3":"Eskolatik ikasi nuen problemak ebaztea, eta arazoie erantzuna ematen dieten tresnak eraikitzea motibatzen nau."
+            
+        },
+        "3": {
+            "university":"Ingeniaritza informatikoa ikasi nituen urteak izan dira nire bizitzako aberasgarrienak.",
+            "university2":"Gaur egun naizen pertsona bihurtu nauena."
+        },
+        "4": {
+            "favAreas":"Graduko 3. mailan, web garapena eta gizaki-makina interakzioak ikasgaietaz ikaragarri gozatu nuen.",
+            "favAreas2":"Web aplikazioak, front-end eta UI/UX arloak ditut gustokoen. Baita datubaseak eta adimen artifiziala ere."
+        },
+        "5": {
+            "vacation":"Ahal dudan guztietan, herrialde eta kultura berriak ezagutzeko bidaiatzen dut.",
+            "vacation2":"Hizkuntzak praktikatzeko aukera paregabea dira baita ere."
+    
+        },
+        "6": {
+            "cooking":"Sukaldatzea asko gustatzen zait.",
+            "cooking2":"Lagun eta familiaz inguratua bada, are gehiago!"
+        },
+        "7": {
+            "wannaKnowMore":"Gehiago jakin nahi?",
+            "contactMe":"Jarri zaitez kontaktuan emailez edo bisitatu nire LinkedIn profila."
+        }
+    }
+}
