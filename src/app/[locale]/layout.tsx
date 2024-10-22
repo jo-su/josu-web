@@ -3,6 +3,7 @@ import {getMessages} from 'next-intl/server';
 import Head from 'next/head';
 import './global.css'
 import PHProvider from '../../lib/posthog';
+import PostHogPageView from '../../lib/PostHogPageView';
  
 export default async function LocaleLayout({
   children,
@@ -26,6 +27,7 @@ export default async function LocaleLayout({
                     <meta name="description" content="Josu Garralda | Computer Engineer."></meta>
                 </Head>
                 <body>
+                    <PostHogPageView /> 
                     {children}
                 </body>
             </NextIntlClientProvider>
