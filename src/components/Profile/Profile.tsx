@@ -5,6 +5,7 @@ import React,{useState} from 'react';
 import Modal from 'react-modal';
 import ProfileStory from '../ProfileStory/ProfileStory';
 import { useTranslations } from 'next-intl';
+import { usePostHog } from 'posthog-js/react';
 
 const modalStyle = {
   content: {
@@ -34,13 +35,21 @@ const Profile = () => {
 
   const [modalIsOpen, setModalIsOpen] = useState(false);
 
-    function openModal() {
-      setModalIsOpen(true);
-    }
-  
-    function closeModal() {
-      setModalIsOpen(false);
-    }
+  const posthog = usePostHog();
+
+  function openModal() {
+    setModalIsOpen(true);
+    posthog.capture('story', {
+      action: "open"
+    });
+  }
+
+  function closeModal() {
+    setModalIsOpen(false);
+    posthog.capture('story', {
+      action: "close"
+    });
+  }
 
     return (
       <>

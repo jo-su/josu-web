@@ -14,7 +14,8 @@ function PHProvider({
         api_host: '/ingest',
         ui_host: 'https://eu.posthog.com',
         person_profiles: 'identified_only',
-        capture_pageview: false // Disable automatic pageview capture, as we capture manually
+        capture_pageview: false, // Disable automatic pageview capture, as we capture manually
+        capture_pageleave: true // Enable pageleave capture
       })
   }, []);
 
