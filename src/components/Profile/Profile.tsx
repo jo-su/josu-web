@@ -6,6 +6,9 @@ import Modal from 'react-modal';
 import ProfileStory from '../ProfileStory/ProfileStory';
 import { useTranslations } from 'next-intl';
 import { usePostHog } from 'posthog-js/react';
+import Image from "next/image";
+
+import profileImage from '../../../public/images/vicom-profilepic.webp';
 
 const modalStyle = {
   content: {
@@ -65,11 +68,7 @@ const Profile = () => {
             </text>
           </svg>
           <div className={styles.gradient} onClick={openModal}>
-            <div 
-              className={styles.pic}
-              style={{backgroundImage: "url(/images/vicom-profilepic.webp)"}}
-            >
-            </div>
+            <Image className={styles.pic} src={profileImage} alt={'Josu Garralda - '+t('profileCircleText')} priority={true} placeholder={'blur'}/>
           </div>
 
         <Modal

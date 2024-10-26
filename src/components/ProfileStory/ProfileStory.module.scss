@@ -21,10 +21,37 @@
   color: var(--text);
   height: 100%;
   width: 100%;
-  padding: 2rem;
+  z-index: auto;
+  position: relative;
+  max-width: calc(80vw - 2px);
 };
+
+.storyBox{
+  background: var(--background);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  color: var(--text);
+  height: 100%;
+  width: 100%;
+};
+
+.storyImage{
+  height: inherit;
+  width: inherit;
+  z-index: 10;
+  position:absolute;
+  top: 0;
+  left: 0;
+}
 
 .storyContent{
   display: flex;
   flex-direction: column;
+  padding: 2rem;
+  z-index: 20;
+  position:absolute;
+  top: 0;
+  left: 0;
 };
