@@ -13,7 +13,6 @@ import story4 from '../../../public/images/story/interestAreas.webp';
 import story5 from '../../../public/images/story/senegal.webp';
 import story6 from '../../../public/images/story/cooking.webp';
 import story7 from '../../../public/images/story/palmtree.webp';
-import { AspectRatio } from "react-bootstrap-icons";
 
 const ProfileStory: FC<IProfileStoryProps> = ({close}) => {
 
