@@ -9,8 +9,6 @@ import { usePostHog } from 'posthog-js/react';
 import Image from "next/image";
 
 import profileImage from '../../../public/images/vicom-profilepic.webp';
-import { AspectRatio } from 'react-bootstrap-icons';
-import { X } from 'react-feather';
 
 const modalStyle = {
   content: {
