@@ -21,9 +21,8 @@ const modalStyle = {
     padding:0,
     margin:0,
     border:0,
-    //borderColor: 'var(--border)',
-    width: 'calc(90vh * 0.5625)',
-    height: '90vh',
+    width: 'calc(80vh * 0.5625)',
+    height: '80vh',
   },
   overlay: {
     zIndex: 1500,

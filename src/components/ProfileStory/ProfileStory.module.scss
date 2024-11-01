@@ -12,15 +12,12 @@
 }
 
 .storyContainer{
-  background: var(--background);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: var(--background);
   color: var(--text);
   height: 100%;
   width: 100%;
   z-index: auto;
   position: relative;
-  max-width: calc(80vw - 2px);
 };
 
 .storyBox{
