@@ -13,6 +13,7 @@ import story4 from '../../../public/images/story/interestAreas.webp';
 import story5 from '../../../public/images/story/senegal.webp';
 import story6 from '../../../public/images/story/cooking.webp';
 import story7 from '../../../public/images/story/palmtree.webp';
+import { AspectRatio } from "react-bootstrap-icons";
 
 const ProfileStory: FC<IProfileStoryProps> = ({close}) => {
 
@@ -26,6 +27,9 @@ const ProfileStory: FC<IProfileStoryProps> = ({close}) => {
       content: () => {
         return (
           <div className={styles.storyContainer} >
+                <button className={styles.close_button} onClick={()=>{close()}}>
+                  <X/>
+                </button>
                 <Image className={styles.storyImage} src={story1} alt={''} priority={true} placeholder={'blur'}/>
                 <div className={styles.storyContent} >
                     <div
@@ -65,6 +69,9 @@ const ProfileStory: FC<IProfileStoryProps> = ({close}) => {
       content: () => {
         return (
             <div className={styles.storyContainer} >
+                <button className={styles.close_button} onClick={()=>{close()}}>
+                  <X/>
+                </button>
                 <Image className={styles.storyImage} src={story2} alt={'Kaixo'} priority={true} placeholder={'blur'}/>
                 <div className={styles.storyContent} >
                     <div
@@ -116,6 +123,9 @@ const ProfileStory: FC<IProfileStoryProps> = ({close}) => {
       content: () => {
         return (
             <div className={styles.storyContainer} >
+                <button className={styles.close_button} style={{color: 'gray'}} onClick={()=>{close()}}>
+                  <X/>
+                </button>
                 <Image className={styles.storyImage} src={story3} alt={''} priority={true} placeholder={'blur'}/>
                 <div className={styles.storyContent} >
                     <div
@@ -154,6 +164,9 @@ const ProfileStory: FC<IProfileStoryProps> = ({close}) => {
       content: () => {
         return (
             <div className={styles.storyContainer} >
+                <button className={styles.close_button} onClick={()=>{close()}}>
+                  <X/>
+                </button>
                 <Image className={styles.storyImage} src={story4} alt={''} priority={true} placeholder={'blur'}/>
                 <div className={styles.storyContent} >
                     <div
@@ -191,6 +204,9 @@ const ProfileStory: FC<IProfileStoryProps> = ({close}) => {
       content: () => {
         return (
             <div className={styles.storyContainer} >
+                <button className={styles.close_button} onClick={()=>{close()}}>
+                  <X/>
+                </button>
                 <Image className={styles.storyImage} src={story5} alt={''} priority={true} placeholder={'blur'}/>
                 <div className={styles.storyContent} >
                     <div
@@ -228,6 +244,9 @@ const ProfileStory: FC<IProfileStoryProps> = ({close}) => {
       content: () => {
         return (
             <div className={styles.storyContainer} >
+                <button className={styles.close_button} onClick={()=>{close()}}>
+                  <X/>
+                </button>
                 <Image className={styles.storyImage} src={story6} alt={''} priority={true} placeholder={'blur'}/>
                 <div className={styles.storyContent} >
                     <div
@@ -265,6 +284,9 @@ const ProfileStory: FC<IProfileStoryProps> = ({close}) => {
       content: () => {
         return (
             <div className={styles.storyContainer} >
+                <button className={styles.close_button} style={{color: 'var(--black)'}} onClick={()=>{close()}}>
+                  <X/>
+                </button>
                 <Image className={styles.storyImage} src={story7} alt={''} priority={true} placeholder={'blur'}/>
                 <div className={styles.storyContent} >
                     <div
@@ -303,15 +325,12 @@ const ProfileStory: FC<IProfileStoryProps> = ({close}) => {
 
   return (
     <>
-      <button className={styles.close_button} onClick={()=>{close()}}>
-        <X />
-      </button>
       <Stories
         stories={stories}
-        height={'80vh'}
+        height={'100%'}
+        width={'100%'}
         defaultInterval={7000}
         storyStyles={{position: "relative"}}
-        storyContainerStyles={{ maxWidth: "calc(80vw - 2px)", overflow: "hidden" }}
         loop={false}
         keyboardNavigation={true}
         currentIndex={currentId}
