@@ -132,10 +132,10 @@ const ProfileStory: FC<IProfileStoryProps> = ({close}) => {
                       style={{
                         backgroundColor: "var(--dark-highlight)",
                         color: "var(--white)",
-                        marginTop: "50px",
+                        marginTop: "2vh",
                         padding: "10px",
                         borderRadius:"1rem",
-                        textAlign: "left"
+                        textAlign: "left",
                       }}
                     >
                       <h3>{t('3.university')}</h3>
@@ -145,7 +145,7 @@ const ProfileStory: FC<IProfileStoryProps> = ({close}) => {
                       style={{
                         backgroundColor: "var(--dark-highlight)",
                         color: "var(--white)",
-                        marginTop: "300px",
+                        marginTop: "35vh",
                         padding: "10px",
                         borderRadius:"1rem",
                         textAlign: "left"
@@ -173,7 +173,7 @@ const ProfileStory: FC<IProfileStoryProps> = ({close}) => {
                       style={{
                         backgroundColor: "var(--light-highlight)",
                         color: "var(--black)",
-                        marginTop: "250px",
+                        marginTop: "25vh",
                         padding: "10px",
                         borderRadius:"1rem",
                         textAlign: "left"
@@ -186,7 +186,7 @@ const ProfileStory: FC<IProfileStoryProps> = ({close}) => {
                       style={{
                         backgroundColor: "var(--light-highlight)",
                         color: "var(--black)",
-                        marginTop: "20px",
+                        marginTop: "2vh",
                         padding: "10px",
                         borderRadius:"1rem",
                         textAlign: "left"
@@ -283,7 +283,7 @@ const ProfileStory: FC<IProfileStoryProps> = ({close}) => {
       content: () => {
         return (
             <div className={styles.storyContainer} >
-                <button className={styles.close_button} style={{color: 'var(--black)'}} onClick={()=>{close()}}>
+                <button className={styles.close_button} style={{color: '#434343'}} onClick={()=>{close()}}>
                   <X/>
                 </button>
                 <Image className={styles.storyImage} src={story7} alt={''} priority={true} placeholder={'blur'}/>
