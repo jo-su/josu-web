@@ -7,6 +7,12 @@
         "profileCircleText": "HOLA! · CLICK PARA STORY ·",
         "close":"CERRAR"
     },
+    "featured": {
+        "title": "Bidaia - Plataforma colaborativa de organización de viajes",
+        "subtitle": "Mi afición por los viajes me llevó a crear esta aplicación que permite crear, compartir y organizar itinerarios de viaje. Proyecto desarrollado como trabajo de fin de máster.",
+        "checkProject": "Ver el proyecto",
+        "goToApp": "Ir a la app"
+    },
     "quick-links": {
         "linkedin": {
             "title": "LinkedIn",

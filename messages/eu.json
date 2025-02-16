@@ -7,6 +7,12 @@
         "profileCircleText": "KAIXO! · EGIN KLIK HEMEN ·",
         "close":"ITXI"
     },
+    "featured": {
+        "title": "Bidaia - Bidaiak planifikatzeko plataforma kolaboratiboa",
+        "subtitle": "Bidaiekiko zaletasunak eraman ninduen bidaia-ibilbideak sortzeko, partekatzeko eta antolatzeko aukera ematen duen aplikazio hau sortzera. Master amaierako lan gisa garatutako proiektua.",
+        "checkProject": "Ikusi proiektua",
+        "goToApp": "Joan aplikaziora"
+    },
     "quick-links": {
         "linkedin": {
             "title": "LinkedIn",

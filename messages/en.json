@@ -7,6 +7,12 @@
         "profileCircleText": "HELLO! · CLICK FOR STORY · ",
         "close":"CLOSE"
     },
+    "featured": {
+        "title": "Bidaia - Collaborative platform for travel planning",
+        "subtitle": "My love for travelling led me to create this application that allows creating, sharing and organising trip itineraries. Project developped as my Master's end of thesis project.",
+        "checkProject": "Check project",
+        "goToApp": "Go to app"
+    },
     "quick-links": {
         "linkedin": {
             "title": "LinkedIn",

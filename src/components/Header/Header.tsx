@@ -7,7 +7,7 @@ const Header = () => {
 
   return (
     <div>
-      <h1>JOSU GARRALDA</h1>
+      <h1>Josu Garralda</h1>
       <h2>{t('position')}</h2>
       <br/>
       <h3>
