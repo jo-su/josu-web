@@ -4,6 +4,7 @@ import Head from 'next/head';
 import './global.css'
 import PHProvider from '../../lib/posthog';
 import PostHogPageView from '../../lib/PostHogPageView';
+import { Analytics } from "@vercel/analytics/react"
  
 export default async function LocaleLayout({
   children,
@@ -29,6 +30,7 @@ export default async function LocaleLayout({
                 <body>
                     <PostHogPageView /> 
                     {children}
+                    <Analytics />
                 </body>
             </NextIntlClientProvider>
         </PHProvider>
