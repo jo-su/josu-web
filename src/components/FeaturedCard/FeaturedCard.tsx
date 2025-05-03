@@ -25,7 +25,7 @@ const FeaturedCard = () => {
         </div>
         <span className={styles.actions}>
               <NewTabLink url={'https://gitlab.com/bidaia-platform'} name={t('checkProject')} accentColor='#F97316'></NewTabLink>
-              <NewTabLink url={'https://bidaia.garralda.eus'} name={t('goToApp')} accentColor='#F97316'></NewTabLink>
+              <NewTabLink url={'https://bidaia.josu.link'} name={t('goToApp')} accentColor='#F97316'></NewTabLink>
         </span>
       </div>
     );
