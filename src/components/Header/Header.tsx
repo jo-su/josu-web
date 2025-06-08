@@ -15,7 +15,7 @@ const Header = () => {
           {t('now')+": "}  
         </span>
         <span style={{opacity: 0.8}}>
-            {t('nowText')} <NewTabLink name="Vicomtech" url="https://www.vicomtech.org" />
+            {t('nowText')} <NewTabLink name="CAF Digital Services" url="https://www.cafdigitalservices.com" />
         </span>
       </h3>
       {/*<h4 style={{display: "flex", alignItems: "center", gap: "5px"}}><MapPin size="16px" color="DarkCoral"/> Donostia</h4>*/}
